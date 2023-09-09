@@ -23,9 +23,10 @@ import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 
-import profile from '../assets/profile.png';
+import arghya_dp from '../assets/Arghya_dp.png';
+import arghya_logo from '../assets/arghya_logo.png';
+import logo_ab from '../assets/logo_ab.png'
 import circle from '../assets/circle.svg';
-import logo from '../assets/logo.png';
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -59,9 +60,10 @@ export default {
     about02,
     about03,
     about04,
-    profile,
+    arghya_dp,
+    arghya_logo,
+    logo_ab,
     circle,
-    logo,
     adidas,
     amazon,
     asus,
