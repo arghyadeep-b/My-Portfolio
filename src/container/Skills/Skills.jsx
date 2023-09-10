@@ -19,6 +19,12 @@ function Skills() {
     });
 
     client.fetch(skillsQuery).then((data) => {
+      // const sorted_data = Object.keys(data)
+      //   .sort()
+      //   .reduce((obj, key) => {
+      //     obj[key] = data[key];
+      //     return obj;
+      //   }, {});
       setSkills(data);
     });
   }, []);

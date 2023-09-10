@@ -1,6 +1,7 @@
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
+import cprog from '../assets/c_logo.png'
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
 import figma from '../assets/figma.png';
@@ -15,6 +16,7 @@ import python from '../assets/python.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
+import tailwindcss from '../assets/tailwindcss.png'
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 
@@ -41,6 +43,7 @@ export default {
     mobile,
     api,
     cpp,
+    cprog,
     css,
     figma,
     flutter,
@@ -54,6 +57,7 @@ export default {
     react,
     redux,
     sass,
+    tailwindcss,
     typescript,
     vue,
     about01,
