@@ -13,7 +13,7 @@ function Navbar() {
         <img src={images.logo_ab} alt="logo" />
       </div>
       <ul className="app__navbar-links">
-        {["home", "about", "work", "skills", "contact"].map((item) => (
+        {["home", "about", "work", "skills", "stats", "contact"].map((item) => (
           <li key={`link-${item}`} className="app__flex p-text">
             <div>
               {/* This empty div is for making a dot on top of the links on hover */}
@@ -31,13 +31,15 @@ function Navbar() {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {["home", "about", "work", "skills", "contact"].map((item) => (
-                <li key={item}>
-                  <a href={`#${item}`} onClick={() => setToggle(false)}>
-                    {item}
-                  </a>
-                </li>
-              ))}
+              {["home", "about", "work", "skills", "stats", "contact"].map(
+                (item) => (
+                  <li key={item}>
+                    <a href={`#${item}`} onClick={() => setToggle(false)}>
+                      {item}
+                    </a>
+                  </li>
+                )
+              )}
             </ul>
           </motion.div>
         )}
