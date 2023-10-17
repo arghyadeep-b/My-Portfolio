@@ -7,7 +7,13 @@ const Stat = ({ title, count }) => {
   const nums = count % 10;
   const [counterOn, setCounterOn] = useState(false);
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
       <span
         style={{
           fontSize: "3rem",
